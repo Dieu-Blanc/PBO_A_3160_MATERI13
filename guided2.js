@@ -1,3 +1,5 @@
+const { addTransitionType } = require("react");
+
 const pembersih = {
   bersihkan() {
     console.log(`${this.nama} membersihkan ruangan.`);
@@ -44,3 +46,4 @@ robotKurir.antarPaket();
 
 console.log(`${robotKurir.nama} bisa membersihkan? ${typeof robotKurir.bersihkan === "function"}`);
 console.log(`${robotRumah.nama} bisa mengantar paket? ${typeof robotRumah.antarPaket === "function"}`);
+// addTransitionType
